@@ -56,12 +56,24 @@ hr{
 
 #todaysWeather{
     border:1px solid black;
-    min-width:80%;
+    width:97%;
     height:50%;
     margin:20px 20px 20px 10px;
+    padding-left:5px
 }
 
 section{
     display:flex;
     width:100%;
+    flex-direction: column;
+}
+
+#currentCity{
+    font-weight: bolder;
+    font-size:25px;
+}
+
+#fiveday{
+    display:flex;
+
 }
