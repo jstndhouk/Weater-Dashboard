@@ -97,3 +97,12 @@ section {
     height:auto;
     font-size: 30px;
 }
+
+#cityButton{
+margin:5px;
+}
+
+.savedButtons{
+    display:flex;
+    flex-direction:column;
+}
