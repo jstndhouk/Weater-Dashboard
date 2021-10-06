@@ -6,6 +6,7 @@ let fiveDayEl = document.querySelector('#fiveDay');
 let weatherDataEl = document.querySelector('#weatherData');
 let fiveDayTitleEl = document.querySelector('#fiveDayTitle');
 let savedButtonsEl = document.querySelector('.savedButtons');
+let mainEl= document.querySelector('main')
 let todayTemp;
 let todayHm;
 let todayWind;
@@ -121,11 +122,14 @@ searchButtonEl.addEventListener('click', function pullData() {
                         futureAppend[i].style.backgroundColor = 'rgb(0, 0, 102)';
                         futureAppend[i].style.color = 'white';
                         futureAppend[i].style.flex = 'justify-content:space-between';
-                        futureAppend[i].style.marginRight = '20px';
-                        futureAppend[i].style.paddingRight = '5px';
-                        futureAppend[i].style.paddingLeft = '5px';
+                        futureAppend[i].style.marginRight = '30px';
+                        futureAppend[i].style.paddingRight = '10px';
+                        futureAppend[i].style.paddingLeft = '10px';
                         futureAppend[i].style.paddingBottom = '5px';
+                        fiveDayEl.style.margin = '30px';
+                        mainEl.style.margin='10px';
                         fiveDayEl.append(futureAppend[i]);
+
                         fiveDayTitleEl.setAttribute('style', 'display: inline')
                     }
                     //if the array already has a city, do not push it again       
@@ -220,9 +224,11 @@ function appendHistory(cityName) {
                         futureAppend[i].style.color = 'white';
                         futureAppend[i].style.flex = 'justify-content:space-between';
                         futureAppend[i].style.marginRight = '20px';
-                        futureAppend[i].style.paddingRight = '5px';
-                        futureAppend[i].style.paddingLeft = '5px';
+                        futureAppend[i].style.paddingRight = '10px';
+                        futureAppend[i].style.paddingLeft = '10px';
                         futureAppend[i].style.paddingBottom = '5px';
+                        fiveDayEl.style.margin = '30px';
+                        mainEl.style.margin='10px';
                         fiveDayEl.append(futureAppend[i]);
                         fiveDayTitleEl.setAttribute('style', 'display: inline')
                     }
