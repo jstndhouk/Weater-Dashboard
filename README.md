@@ -1,4 +1,4 @@
-# Weater-Dashboard
+# Weather-Dashboard
 
 # Description
 This application uses a weather API to grab weather data from a server and display it on the page.  The user inputs a city, and the daily weather appears as well as a five day forecast below the daily weather.  Once a city has been entered, a button appears on the left side so that the weather data from that city can be called again.  
