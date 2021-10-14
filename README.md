@@ -10,8 +10,8 @@ There are two API fetches here.  One uses the city name to grab the lattitude an
 The future forecast uses a loop such that if more days were to be desired to be shown, changing one number in the loop statement would allow for that.
 
 # Screenshots
-![Image output](./assets/images/capture1.PNG)
-![Image output](./assets/images/capture2.PNG)
+![Image output](./assets/images/capture1.png)
+![Image output](./assets/images/capture2.png)
 
 # Deployed Application
 https://jstndhouk.github.io/Weater-Dashboard/
